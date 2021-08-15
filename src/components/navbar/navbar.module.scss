@@ -1,0 +1,67 @@
+.navbar {
+  > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo {
+    margin-right: 30px;
+    display: flex;
+    margin-top: 1rem;
+    width: 233px;
+
+    &__container {
+      width: 59.6px;
+      height: 38.9px;
+      background-image: url("../../images/alts-logo.svg");
+      background-size: cover;
+      margin-right: 0.5rem;
+    }
+
+    &__heading {
+      color: var(--color-blue);
+      font-weight: normal;
+
+      span {
+        font-weight: 500;
+      }
+    }
+  }
+
+  &__navs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__nav {
+    list-style-type: none;
+
+    a {
+      text-decoration: none;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      padding: 0.5rem;
+      padding-top: 2rem;
+      margin-right: 2.5rem;
+      transform: translateY(-3px);
+    }
+    &Active {
+      a {
+        background-color: var(--color-blue);
+      }
+    }
+  }
+  &__download {
+    border-radius: 20px;
+    font-size: 20px;
+    border: none;
+    background-color: var(--color-dark-blue);
+    color: #fff;
+    cursor: pointer;
+    padding: 1rem;
+    margin-top: 0.5rem;
+  }
+}
