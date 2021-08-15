@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/altstogether-wallet-marketing/static/css/main.c5e0ae33.chunk.css",
+    "main.js": "/altstogether-wallet-marketing/static/js/main.2df5b7bd.chunk.js",
+    "main.js.map": "/altstogether-wallet-marketing/static/js/main.2df5b7bd.chunk.js.map",
+    "runtime-main.js": "/altstogether-wallet-marketing/static/js/runtime-main.e56a82e2.js",
+    "runtime-main.js.map": "/altstogether-wallet-marketing/static/js/runtime-main.e56a82e2.js.map",
+    "static/js/2.5200bfc9.chunk.js": "/altstogether-wallet-marketing/static/js/2.5200bfc9.chunk.js",
+    "static/js/2.5200bfc9.chunk.js.map": "/altstogether-wallet-marketing/static/js/2.5200bfc9.chunk.js.map",
+    "index.html": "/altstogether-wallet-marketing/index.html",
+    "static/css/main.c5e0ae33.chunk.css.map": "/altstogether-wallet-marketing/static/css/main.c5e0ae33.chunk.css.map",
+    "static/js/2.5200bfc9.chunk.js.LICENSE.txt": "/altstogether-wallet-marketing/static/js/2.5200bfc9.chunk.js.LICENSE.txt",
+    "static/media/navbar.module.scss": "/altstogether-wallet-marketing/static/media/alts-logo.cf9637da.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e56a82e2.js",
+    "static/js/2.5200bfc9.chunk.js",
+    "static/css/main.c5e0ae33.chunk.css",
+    "static/js/main.2df5b7bd.chunk.js"
+  ]
+}
