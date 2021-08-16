@@ -1,0 +1,24 @@
+.started {
+  text-align: center;
+  background-color: var(--color-brown);
+  padding: 3rem;
+
+  &__logo {
+    margin-bottom: 1rem;
+
+    img {
+      width: 5rem;
+      object-fit: contain;
+    }
+  }
+
+  &__heading {
+    font-size: 32px;
+    color: #fff;
+    margin-bottom: 1rem;
+  }
+  &__btn {
+    background-color: var(--color-dark-blue);
+    color: #fff;
+  }
+}

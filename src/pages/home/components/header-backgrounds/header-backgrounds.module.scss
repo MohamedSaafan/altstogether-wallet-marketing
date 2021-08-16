@@ -1,0 +1,41 @@
+.bigBlueCircle {
+  border-radius: 50%;
+  background-color: var(--color-blue);
+  position: absolute;
+  width: 43rem;
+  height: 43rem;
+  right: -27rem;
+  top: -7rem;
+  z-index: -1;
+}
+.topBigYellowCircle {
+  border-radius: 50%;
+  width: 15rem;
+  height: 15rem;
+  top: -7rem;
+  left: -7rem;
+  background-color: var(--color-yellow);
+  position: absolute;
+  z-index: -1;
+}
+
+.middleTopYellowCircle {
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  background-color: var(--color-yellow);
+  position: absolute;
+  z-index: -1;
+  left: 764px;
+  top: 165px;
+}
+.middleBottomYellowCircle {
+  border-radius: 50%;
+  width: 6rem;
+  height: 6rem;
+  background-color: var(--color-yellow);
+  position: absolute;
+  z-index: -1;
+  left: 564px;
+  top: 465px;
+}

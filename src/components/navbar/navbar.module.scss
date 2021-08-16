@@ -55,13 +55,11 @@
     }
   }
   &__download {
-    border-radius: 20px;
-    font-size: 20px;
     border: none;
     background-color: var(--color-dark-blue);
     color: #fff;
     cursor: pointer;
-    padding: 1rem;
+
     margin-top: 0.5rem;
   }
 }

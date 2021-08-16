@@ -6,17 +6,33 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+body {
+  overflow-x: hidden;
+}
 
 :root {
   --color-dark-blue: #5956e9;
   --color-blue: #6ecee5;
   --color-black-0: #100f0f;
   --color-black-1: #0c0b0b;
-  --color-brown: #070707;
+  --color-brown: #707070;
   --color-sky: #8bd7ea;
+  --color-yellow: #e6c64f;
 }
 
 .container {
   max-width: 1140px;
   margin: auto;
+}
+
+.btn {
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+
+.big-btn {
+  padding: 1rem 2rem;
+  border-radius: 20px;
+  font-size: 20px;
 }

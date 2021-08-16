@@ -1,0 +1,27 @@
+.trends {
+  text-align: center;
+  margin-top: 4rem;
+  &__heading {
+    font-size: 32px;
+    color: var(--color-black);
+  }
+
+  &__details {
+    color: var(--color-black-1);
+    font-size: 18px;
+    width: 49rem;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  &__row {
+    display: flex;
+  }
+  &__element {
+    img {
+      max-width: 17rem;
+      object-fit: contain;
+    }
+  }
+}

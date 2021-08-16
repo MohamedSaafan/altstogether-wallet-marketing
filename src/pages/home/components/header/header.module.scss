@@ -1,0 +1,43 @@
+.header {
+  margin-top: 3rem;
+  &__content {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__heading {
+    font-size: 42px;
+    color: var(--color-black);
+    width: 23rem;
+  }
+
+  &__details {
+    width: 30rem;
+    color: var(--color-black-1);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    position: relative;
+    &::before {
+      border-radius: 50%;
+      content: " ";
+      background-color: var(--color-blue);
+      width: 2rem;
+      height: 2rem;
+      display: block;
+      position: absolute;
+      left: -4rem;
+      top: 20%;
+    }
+  }
+
+  &__button {
+    background-color: var(--color-dark-blue);
+    color: #fff;
+  }
+
+  /* starting the right position*/
+
+  &__extensionImage {
+    height: 23rem;
+    text-align: right;
+  }
+}

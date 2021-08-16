@@ -25,7 +25,9 @@ const NavBar = (props) => {
             <Link to='/about'>About</Link>
           </li>
         </ul>
-        <button className={Styles.navbar__download}>Download</button>
+        <button className={`big-btn ${Styles.navbar__download}`}>
+          Download
+        </button>
       </div>
     </nav>
   );
