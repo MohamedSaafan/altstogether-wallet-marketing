@@ -1,0 +1,32 @@
+.swap {
+  text-align: center;
+
+  &__heading {
+    font-size: 32px;
+    color: var(--color-black);
+    margin-bottom: 2rem;
+  }
+
+  &__details {
+    width: 70%;
+    margin: auto;
+    line-height: 170%;
+    color: var(--color-black-1);
+    margin-bottom: 2rem;
+  }
+
+  &__screens {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 1.5rem;
+    margin-bottom: 4rem;
+
+    &__image {
+      img {
+        width: 100%;
+        object-fit: contain;
+        height: 100%;
+      }
+    }
+  }
+}

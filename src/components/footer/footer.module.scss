@@ -1,7 +1,7 @@
 .footer {
   position: relative;
   min-height: 63vh;
-  margin-top: 2rem;
+  margin-top: 4rem;
   color: #fff;
   &__browncontainer {
     padding-bottom: 3rem;
@@ -20,7 +20,7 @@
     position: absolute;
     top: 0;
     right: 0;
-    width: 58%;
+    width: 65%;
     z-index: -1;
     clip-path: polygon(0 39%, 100% 0, 100% 100%, 0 100%);
   }

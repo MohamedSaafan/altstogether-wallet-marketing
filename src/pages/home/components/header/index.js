@@ -1,6 +1,6 @@
 import Styles from "./header.module.scss";
 import firstScreen from "../../../../images/first-screen.png";
-import HeaderBackGrounds from "../header-backgrounds";
+import HeaderBackGrounds from "../../../../components/header-backgrounds";
 
 const Header = (props) => {
   return (

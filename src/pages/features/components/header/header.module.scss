@@ -1,0 +1,44 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 2rem;
+  min-height: 100vh;
+  align-items: center;
+
+  &__left {
+    width: 46%;
+    position: relative;
+  }
+  &__right {
+    width: 46%;
+    text-align: right;
+  }
+
+  &__heading {
+    width: 25rem;
+    font-size: 32px;
+    color: var(--color-black);
+    margin-bottom: 2rem;
+  }
+
+  &__btn {
+    background-color: var(--color-dark-blue);
+    color: #fff;
+  }
+
+  &__img {
+    height: 23rem;
+    object-fit: contain;
+  }
+}
+
+.leftMiddleYellowCicle {
+  position: absolute;
+  left: -6rem;
+  top: 3rem;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: var(--color-yellow);
+}
