@@ -1,0 +1,15 @@
+.header {
+  margin: 6rem auto 4rem;
+  &__heading {
+    color: var(--color-black);
+    font-size: 30px;
+    text-align: center;
+  }
+
+  &__details {
+    font-size: 18px;
+    color: var(--color-black-1);
+    text-align: center;
+    margin-top: 2rem;
+  }
+}

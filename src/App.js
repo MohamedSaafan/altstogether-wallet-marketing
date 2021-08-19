@@ -1,6 +1,6 @@
 import { BrowserRouter, Redirect, Route, Switch } from "react-router-dom";
 import "./App.css";
-import About from "./pages/about";
+import Support from "./pages/support";
 import Features from "./pages/features";
 import Home from "./pages/home";
 const App = () => {
@@ -9,7 +9,7 @@ const App = () => {
       <Switch>
         <Route path='/' exact component={Home} />
         <Route path='/features' component={Features} />
-        <Route path='/about' component={About} />
+        <Route path='/support' component={Support} />
         <Redirect to='/' />
       </Switch>
     </BrowserRouter>

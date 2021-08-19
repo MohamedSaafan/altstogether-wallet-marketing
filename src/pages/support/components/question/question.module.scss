@@ -1,0 +1,46 @@
+.question {
+  border-bottom: 1px solid var(--color-brown);
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+
+  &:last-of-type {
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  &__question {
+    display: flex;
+  }
+  &__heading {
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 1rem;
+    display: inline-block;
+    color: var(--color-black);
+    cursor: pointer;
+  }
+
+  &__arrow {
+    margin-top: 0.2rem;
+    img {
+      transition: all 90ms linear;
+    }
+    &Down {
+      img {
+        transform: rotate(180deg);
+      }
+    }
+  }
+  &__answer {
+    margin-left: 2rem;
+    color: var(--color-black-1);
+    transform: scale(0);
+    display: none;
+    transition: all 90ms linear;
+
+    &Active {
+      display: block;
+      transform: scale(1);
+    }
+  }
+}

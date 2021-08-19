@@ -1,0 +1,17 @@
+.questions {
+  margin-bottom: 2rem;
+
+  &__heading {
+    font-size: 30px;
+    color: var(--color-black);
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+  }
+
+  &__questions {
+    padding: 2rem;
+    border-radius: 54px;
+    border: 1px solid var(--color-blue);
+    background-color: #fff;
+  }
+}
