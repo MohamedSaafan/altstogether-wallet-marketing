@@ -139,6 +139,26 @@
       height: 0.5rem;
       width: 90%;
       position: relative;
+
+      &__message {
+        width: 2rem;
+        height: 2rem;
+        position: absolute;
+        background-color: #95989a;
+        color: #fff;
+        text-align: center;
+        top: -56px;
+        transform: translate(-50%, 50%);
+        clip-path: polygon(
+          0% 0%,
+          100% 0%,
+          100% 75%,
+          75% 75%,
+          75% 100%,
+          50% 75%,
+          0% 75%
+        );
+      }
       &::before {
         content: " ";
         height: 100%;
@@ -161,25 +181,31 @@
 
       &:nth-last-of-type(2) {
         margin-right: auto;
+        > div {
+          left: 20%;
+        }
         &::before {
-          width: 30%;
+          width: 20%;
         }
         &::after {
-          left: 29%;
+          left: 19%;
         }
       }
       &:nth-last-of-type(1) {
         margin-left: auto;
+        > div {
+          left: 40%;
+        }
         &::before {
-          width: 60%;
+          width: 40%;
         }
         &::after {
-          left: 59%;
+          left: 39%;
         }
       }
     }
     &__details {
-      margin: 2rem 0;
+      margin: 5rem 0;
       text-align: center;
       color: var(--color-black-1);
       font-size: 18px;

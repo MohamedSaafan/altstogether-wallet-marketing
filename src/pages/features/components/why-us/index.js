@@ -112,7 +112,7 @@ const WhyUs = (props) => {
               <div
                 className={`${Styles.why__slippage__barTop} ${Styles.why__slippage__bar}`}
               >
-                <div className={Styles.why__slippage__bar__circle}></div>
+                <div className={Styles.why__slippage__bar__message}>2%</div>
               </div>
 
               <p className={Styles.why__slippage__details}>
@@ -124,7 +124,7 @@ const WhyUs = (props) => {
               <div
                 className={`${Styles.why__slippage__barTop} ${Styles.why__slippage__bar}`}
               >
-                <div className={Styles.why__slippage__bar__circle}></div>
+                <div className={Styles.why__slippage__bar__message}>4%</div>
               </div>
             </div>
           </div>

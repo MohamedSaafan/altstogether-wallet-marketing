@@ -1,0 +1,17 @@
+.install {
+  text-align: center;
+
+  &__heading {
+    width: 28rem;
+    font-size: 30px;
+    margin: auto;
+    color: var(--color-black);
+    margin-top: 4rem;
+  }
+
+  &__btn {
+    margin: 2rem auto;
+    background-color: var(--color-dark-blue);
+    color: #fff;
+  }
+}

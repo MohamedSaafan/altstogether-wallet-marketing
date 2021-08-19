@@ -1,0 +1,73 @@
+.best {
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__left {
+      width: 50%;
+    }
+    &__right {
+      width: 50%;
+    }
+    &__heading {
+      text-align: center;
+      color: var(--color-black);
+      font-weight: normal;
+
+      span {
+        font-weight: bold;
+      }
+    }
+    &__brands {
+      margin-left: 2rem;
+      &__row {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 2rem;
+        align-items: center;
+      }
+
+      &__brand {
+        flex-grow: 1;
+        margin-right: 3rem;
+        max-width: 30%;
+
+        img {
+          max-width: 100%;
+          object-fit: contain;
+        }
+        p {
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+
+    &__left {
+      width: 50%;
+      h3 {
+        margin: auto;
+        color: var(--color-black-1);
+        font-weight: normal;
+        width: 16rem;
+      }
+      span {
+        font-weight: bold;
+      }
+    }
+    &__right {
+      width: 50%;
+
+      h3 {
+        font-size: normal;
+        color: var(--color-blue);
+        text-align: center;
+        font-weight: normal;
+      }
+    }
+  }
+}
