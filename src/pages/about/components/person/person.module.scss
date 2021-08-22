@@ -1,0 +1,18 @@
+.person {
+  width: 100%;
+  height: 100%;
+
+  &__image {
+    img {
+      width: calc(100% - 2px);
+      border: 1px solid var(--color-brown);
+    }
+  }
+
+  &__name {
+    text-align: center;
+  }
+  &__position {
+    text-align: center;
+  }
+}

@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15rem;
+  margin-bottom: 6rem;
+
+  > div {
+    max-width: 50%;
+  }
+
+  &__left {
+    padding-right: 2rem;
+  }
+
+  &__heading {
+    font-size: 30px;
+    color: var(--color-black-0);
+  }
+
+  &__details {
+    color: var(--color-black-1);
+    font-size: 18px;
+  }
+}
