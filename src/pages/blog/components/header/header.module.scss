@@ -1,0 +1,16 @@
+.header {
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+  text-align: center;
+
+  &__heading {
+    font-size: 30px;
+    color: var(--color-black-0);
+    margin-bottom: 1rem;
+  }
+
+  &__details {
+    font-size: 18px;
+    color: var(--color-black-1);
+  }
+}

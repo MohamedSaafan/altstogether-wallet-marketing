@@ -4,6 +4,7 @@ import Support from "./pages/support";
 import Features from "./pages/features";
 import Home from "./pages/home";
 import About from "./pages/about";
+import Blog from "./pages/blog";
 const App = () => {
   return (
     <BrowserRouter>
@@ -12,6 +13,7 @@ const App = () => {
         <Route path='/features' component={Features} />
         <Route path='/support' component={Support} />
         <Route path='/about' component={About} />
+        <Route path='/blog' component={Blog} />
         <Redirect to='/' />
       </Switch>
     </BrowserRouter>
