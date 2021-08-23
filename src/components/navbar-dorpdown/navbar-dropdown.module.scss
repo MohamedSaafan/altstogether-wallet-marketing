@@ -1,0 +1,18 @@
+.dropdown {
+  list-style-type: none;
+  position: absolute;
+  top: 90%;
+  border: 1px solid var(--color-brown);
+  border-radius: 4px;
+  left: 0.5rem;
+  padding: 0 0.5rem;
+  background-color: #fff;
+
+  a {
+    text-decoration: none;
+    color: var(--color-black-1);
+    &:hover {
+      color: var(--color-blue);
+    }
+  }
+}

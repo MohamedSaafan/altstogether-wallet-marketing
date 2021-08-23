@@ -38,7 +38,13 @@
   &__nav {
     list-style-type: none;
 
-    a {
+    &:hover {
+      > a > ul {
+        display: block;
+      }
+    }
+
+    > a {
       text-decoration: none;
       display: flex;
       justify-content: center;
@@ -47,9 +53,13 @@
       padding-top: 2rem;
       margin-right: 2.5rem;
       transform: translateY(-3px);
+      position: relative;
+      > ul {
+        display: none;
+      }
     }
     &Active {
-      a {
+      > a {
         background-color: var(--color-blue);
       }
     }
