@@ -1,5 +1,6 @@
 import Styles from "./post.module.scss";
 import blogImage from "../../../../images/blog-image-1.svg";
+import { Link } from "react-router-dom";
 const Post = (props) => {
   return (
     <div className={Styles.post}>
@@ -19,7 +20,9 @@ const Post = (props) => {
 
       <div className={Styles.post__footer}>
         <p className={Styles.post__author}>By LIoyd</p>
-        <button className={`btn ${Styles.post__readmore}`}>Read more</button>
+        <button className={`btn ${Styles.post__readmore}`}>
+          <Link to='/blog/posts/1'>Read more</Link>
+        </button>
       </div>
     </div>
   );

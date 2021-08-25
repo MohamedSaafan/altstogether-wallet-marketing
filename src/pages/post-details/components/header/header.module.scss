@@ -1,0 +1,16 @@
+.header {
+  margin: 6rem auto;
+
+  &__left {
+    width: 60%;
+  }
+
+  &__heading {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  &__details {
+    font-size: 1.126rem;
+  }
+}

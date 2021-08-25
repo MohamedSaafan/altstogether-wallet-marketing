@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <pattern id="pattern" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 48 48">
+      <image width="48" height="48" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAABvklEQVRYCe1VwUrEMBBtw4peBRWEXovfIIL0rIL3bUE/wU/oJwh70/P20u/xtCDsunjxICJe2rX1TfDiISkJiak4SybZZJLMe2+SJor4xwr8bwVi3/TLshSLxeIMcS5gJ7A92HYcx5u+79/RvqH/0XXdY1VVV/hvVCZGsw0nT6fTU4C/w7Ij2I8C8NTf/24jIcQhDZiaNwIAfw117wHIWwzsHQmqXFtRFBnAk/JewRNu5wSyLJvgWBD4LQrg25wTSJLkEqBT2K8U5ynG1+Qcx2cI/DOy9IBJS1zeDm2E/gu1puacAMAfD4CYpWl6g8+rBD4wd9Dt/Agh4gFMWaD0rSvwFMQHgV3aWGVt265VPptxHwS0r3td140NUNUaHwRUsbyMMwEvshpsqj2vun3yPO91fgvfpmmaHdyRT5O1YzpCa1PwRHRMBJ4IkKmNhgBe8JUpeJovqBqD4YVe2eAQNot8rAGBP3+ErAhMfKg5sOerwr9UjGuHY63Xwjn0Psznc6cxR3MHLLSSS5iAlCFgxRkIKL4MzRmQMgSsOAMBxZehOQNShoAVZyCg+DI0Z0DKELDiDAQUn0OzAqwAFPgCY01ibL0u97gAAAAASUVORK5CYII="/>
+    </pattern>
+  </defs>
+  <rect id="icons8_facebook_f_48px_1" width="48" height="48" fill="url(#pattern)"/>
+</svg>
